@@ -1,0 +1,7 @@
+<p>game-list works!</p>
+<h2> Games</h2>
+<ul class="games">
+    <li *ngFor = "let game of games">
+        <span class="badge">{{game.gameId}}</span> {{game.title}}
+    </li>
+</ul>
